@@ -1,0 +1,31 @@
+<xml>
+	<install>
+		<program>
+			<name> FireFox</name>
+			<url>https://www.mozilla.org/en-US/firefox/all/#en-US </url>		
+			<http>
+				<download>
+					<class>class= "download win64"</class>
+					<id>"en-US"</id>
+					<class>class="download win64"</class>
+					<link> href=".*"</link>
+				</download>
+			</http>
+			<setup>
+				<usercontrol> 
+					<click> Yes </click>
+					<click> Next </click>
+				</usercontrol>
+				<radio>	
+					<select> Standard </select>
+				</radio>
+					<click> Next</click>
+			</setup>
+			<upgrade> 
+				<click> Upgrade </click>
+			</upgrade>	
+			<click> Finish </click>
+			<launch> Firefox will launch once upgrade is completed </launch>
+		</program>
+	</install>
+</xml>
