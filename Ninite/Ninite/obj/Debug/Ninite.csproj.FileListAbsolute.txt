@@ -1,0 +1,18 @@
+M:\Personal Folder - Student\jetroutman\CSI 201\Ninite\Ninite\Ninite\bin\Debug\Ninite.exe.config
+M:\Personal Folder - Student\jetroutman\CSI 201\Ninite\Ninite\Ninite\bin\Debug\Ninite.exe
+M:\Personal Folder - Student\jetroutman\CSI 201\Ninite\Ninite\Ninite\bin\Debug\Ninite.pdb
+M:\Personal Folder - Student\jetroutman\CSI 201\Ninite\Ninite\Ninite\obj\Debug\Ninite.csprojResolveAssemblyReference.cache
+M:\Personal Folder - Student\jetroutman\CSI 201\Ninite\Ninite\Ninite\obj\Debug\Ninite.Form1.resources
+M:\Personal Folder - Student\jetroutman\CSI 201\Ninite\Ninite\Ninite\obj\Debug\Ninite.Properties.Resources.resources
+M:\Personal Folder - Student\jetroutman\CSI 201\Ninite\Ninite\Ninite\obj\Debug\Ninite.csproj.GenerateResource.Cache
+M:\Personal Folder - Student\jetroutman\CSI 201\Ninite\Ninite\Ninite\obj\Debug\Ninite.exe
+M:\Personal Folder - Student\jetroutman\CSI 201\Ninite\Ninite\Ninite\obj\Debug\Ninite.pdb
+M:\Personal Folder - Student\jetroutman\CSI 201\Ninite\Ninite\Ninite\obj\Debug\Ninite.FormAddPrograms.resources
+M:\Personal Folder - Student\jetroutman\CSI 201\Ninite\Ninite\Ninite\obj\Debug\Ninite.FormNewProg.resources
+C:\Users\amlee\Downloads\Ninite\Ninite\Ninite\Ninite\Ninite\bin\Debug\Ninite.exe.config
+C:\Users\amlee\Downloads\Ninite\Ninite\Ninite\Ninite\Ninite\obj\Debug\Ninite.pdb
+C:\Users\amlee\Downloads\Ninite\Ninite\Ninite\Ninite\Ninite\obj\Debug\Ninite.csprojResolveAssemblyReference.cache
+C:\Users\amlee\Downloads\Ninite\Ninite\Ninite\Ninite\Ninite\obj\Debug\Ninite.Form1.resources
+C:\Users\amlee\Downloads\Ninite\Ninite\Ninite\Ninite\Ninite\obj\Debug\Ninite.FormAddPrograms.resources
+C:\Users\amlee\Downloads\Ninite\Ninite\Ninite\Ninite\Ninite\obj\Debug\Ninite.FormNewProg.resources
+C:\Users\amlee\Downloads\Ninite\Ninite\Ninite\Ninite\Ninite\obj\Debug\Ninite.csproj.GenerateResource.Cache
