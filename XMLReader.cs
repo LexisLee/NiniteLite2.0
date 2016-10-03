@@ -18,10 +18,21 @@ namespace XMLTest
             //Console.WriteLine(xmlDoc.DocumentElement.OuterXml);
             XmlNode root = xmlDoc.FirstChild;
             XmlNode elm = root;
+            XmlNode node = root;
             Node xmlNode = new Node();
             List<Node> xmlNode_list = new List<Node>();
             //Console.WriteLine(elm);
-            if (root.HasChildNodes)
+            xmlNode.Elm_Name = node.Name;
+            Console.WriteLine(xmlNode.Elm_Name);
+            node = node.FirstChild;
+            /*NOTE:
+             * Next Sibling or First Child will return a NULL 
+             */
+            xmlNode.Elm_Name = node.Name;
+            Console.WriteLine(xmlNode.Elm_Name);
+            node = node.NextSibling;
+            Console.WriteLine(node);
+            /*if (root.HasChildNodes)
              {
                  for (int i = 0; i < elm.ChildNodes.Count; i++)
                  {
@@ -34,7 +45,7 @@ namespace XMLTest
                     Console.WriteLine(xmlNode.Data);
                     Console.WriteLine();
                  }
-             }
+             }*/
         }
     }
 
