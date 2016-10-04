@@ -13,39 +13,56 @@ namespace XMLTest
         static void Main(string[] args)
         {
             XmlDocument xmlDoc = new XmlDocument();
-            xmlDoc.Load("C:\\Users\\gbortiz\\Desktop\\XML_FF.xml");
+            xmlDoc.Load("C:\\Users\\amlee\\Desktop\\XML_FF.xml");
             //XmlNode node = xmlDoc.DocumentElement.SelectSingleNode("/install/program");
             //Console.WriteLine(xmlDoc.DocumentElement.OuterXml);
             XmlNode root = xmlDoc.FirstChild;
-            XmlNode elm = root;
-            XmlNode node = root;
+            XmlNode elm = root, prev = root;
             Node xmlNode = new Node();
-            List<Node> xmlNode_list = new List<Node>();
+            List<string> xmlNode_list = new List<string>();
+            int i = 0, j = 1;
             //Console.WriteLine(elm);
-            xmlNode.Elm_Name = node.Name;
-            Console.WriteLine(xmlNode.Elm_Name);
-            node = node.FirstChild;
-            /*NOTE:
-             * Next Sibling or First Child will return a NULL 
-             */
-            xmlNode.Elm_Name = node.Name;
-            Console.WriteLine(xmlNode.Elm_Name);
-            node = node.NextSibling;
-            Console.WriteLine(node);
-            /*if (root.HasChildNodes)
-             {
-                 for (int i = 0; i < elm.ChildNodes.Count; i++)
-                 {
-                    Console.WriteLine(i);
-                    Console.WriteLine(elm.ChildNodes.Count);
-                    xmlNode.Elm_Name = elm.ChildNodes[i].Name;
-                    xmlNode.Data = elm.ChildNodes[i].InnerText;
-                    Console.WriteLine(xmlNode.Elm_Name);
-                    Console.WriteLine(": ");
-                    Console.WriteLine(xmlNode.Data);
-                    Console.WriteLine();
-                 }
-             }*/
+           if (root.HasChildNodes)
+            {
+                while (i < elm.ChildNodes.Count)
+                {
+                    Console.WriteLine("Number of Childs: {1}" + "{0}Name of ChildNode: {2}", Environment.NewLine, elm.ChildNodes.Count, elm.ChildNodes[i].Name);
+
+                    elm = elm.ChildNodes[i];
+
+                    if ( elm.ChildNodes.Count > 0 )
+                    {
+                        i = 0;
+                    }
+
+                    else if (elm.NextSibling != null){
+                        elm = elm.NextSibling;
+                    }
+
+                    else
+                    {
+                        xmlNode_list.Add(elm.InnerText);
+                        Console.WriteLine("InnerText: {1} {0}", Environment.NewLine, elm.InnerText);
+                        if (prev.NextSibling != null)
+                        {
+                            elm = prev.NextSibling;
+                            i = 0;
+                        }
+                        else
+                        {
+                            if (elm != root)
+                            {
+                                elm = elm.ParentNode;
+                                i++;
+                            }
+                        }
+                    }
+
+                    Console.WriteLine("{1} {0}", Environment.NewLine, elm.Name);
+
+                    prev = elm;
+                }
+            }
         }
     }
 
