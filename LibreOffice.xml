@@ -1,0 +1,28 @@
+<xml>
+	<program>
+		<name> Libre Office </name>
+		<install>
+			<url>http://donate.libreoffice.org/home/dl/win-x86/5.2.2/en-US/LibreOffice_5.2.2_Win_x86.msi </url>		
+			<http>
+				<download> Libre Office will instantly download	</download>
+			</http>
+			<setup>
+			<start> 
+				<click> Next </click>
+			</start>
+			<radio>	
+				<select> Typical </select>
+			</radio>
+				<click> Next</click>
+			</setup>
+		</install>
+			<create> 
+				<checkbox> Create a start link on desktop </checkbox>
+				<checkbox> Load LibreOffice 5.2.2.2 during system start-up  </checkbox>
+				<click> install </click>
+			</create>	
+			<usercontrol> Yes </usercontrol>
+			<click> finish </click>
+		<complete> LibreOffice is now installed on desktop </complete>
+	</program>
+</xml>
