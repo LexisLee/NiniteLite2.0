@@ -1,0 +1,26 @@
+<xml>
+	<program>
+		<name>  </name>
+		<install>
+			<url>http://javadl.oracle.com/webapps/download/AutoDL?BundleId=216462</url>		
+			<http>
+				<download> Java will instantly download	</download>
+			</http>
+			<setup>
+			<device-changes>
+				<click>Yes</click>
+			</device-changes>
+				<start> 
+					<click>Install</click>
+				</start>
+			</setup>
+		</install>
+			<complete>
+				<click>close</click>
+				<verify>
+					<click>Verify Java Version </click>
+				</verify>
+				<message>Verifed Java Version</message>
+			</complete>
+	</program>
+</xml>

@@ -1,0 +1,28 @@
+<xml>
+	<program>
+		<name>VLC </name>
+		<install>
+			<url>http://get.videolan.org/vlc/2.2.4/win32/vlc-2.2.4-win32.exe</url>		
+			<http>
+				<download> VLC will instantly download	</download>
+			</http>
+			<setup>
+			<device-changes>
+				<click>Yes</click>
+			</device-changes>
+				<Installer-Language> 
+					<drop-menu>English</drop-menu>
+					<click>OK</click>
+				</Installer-Language>
+					<click>Next</click>
+					<click>Next</click>
+					<click>Next</click>
+					<click>Install</click>
+			</setup>
+		</install>
+			<complete>
+				<click>Finish</click>
+				<click>Continue</click>	
+			</complete>
+	</program>
+</xml>
